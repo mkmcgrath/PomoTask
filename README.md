@@ -12,5 +12,6 @@ I created this software because I wanted to have a simple, non-resource-intensiv
 This software was developed in the C programing language on Arch Linux using Visual Studio Code.
 
 
-# A helpful introduction to those interested in the Pomodoro Technique:
+# Sources
+A helpful introduction to those interested in the Pomodoro Technique:
 https://todoist.com/productivity-methods/pomodoro-technique
