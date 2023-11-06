@@ -106,6 +106,8 @@ int main() {
 
     int choice;
     bool running = true;
+    
+    // logic for the choices
     while (running && (choice = wgetch(menuWin))) {
         switch (choice) {
             case KEY_DOWN:
