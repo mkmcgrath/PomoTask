@@ -24,6 +24,8 @@ https://todoist.com/productivity-methods/pomodoro-technique
 # Future Development
 There are several things that I have yet to implement; eg: dynamic window resizing, color options, a notification or audible bell to allow users to know when their session is over (I will probably use SDL for this), etc.
 
+In addition, I would like to add a section for a user to add tasks that can be checked off and completed (hence the name "task").
+
 I would also like to include this in the AUR (Arch User Repository) eventually as well as possible making an install script that makes installation easy on other operating systems (Windows, Mac, Debian based systems, Ubuntu based systems).
 
 I have plans to continue developing this project in the future, but as for now, things will likely stay as they are. If you would like to contribute, please submit a pull request or fork own version! If you would like to get in contact with me personally, you can contact me at *mkmcgrath.dev@gmail.com*
