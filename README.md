@@ -21,8 +21,15 @@ This software was developed in the C programing language on Arch Linux using Vis
 A helpful introduction to those interested in the Pomodoro Technique:
 https://todoist.com/productivity-methods/pomodoro-technique
 
+# Features
+- Accurate countdown timer (drift-free, anchored to the monotonic clock instead of accumulating `sleep()` error)
+- Settings menu with four color schemes (Green & Red, Blue & Yellow, Green & Black, White & Green) and an invert-colors toggle
+- Audible chime at the end of each work/break phase, played via `paplay`/`pw-play`/`aplay` if available (falls back to the terminal bell otherwise, so it never depends on a specific audio backend and can't break PulseAudio, ALSA, or PipeWire)
+- Screen strobe alert at the end of each phase
+- Cancel a running session with `q` to return to the main menu at any time
+
 # Future Development
-There are several things that I have yet to implement; eg: dynamic window resizing, color options, a notification or audible bell to allow users to know when their session is over (I will probably use SDL for this), etc.
+There are several things that I have yet to implement; eg: dynamic window resizing, etc.
 
 In addition, I would like to add a section for a user to add tasks that can be checked off and completed (hence the name "task").
 
